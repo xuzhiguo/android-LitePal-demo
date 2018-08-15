@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="ID："
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/book_id_item"
+                android:text="1"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layout_marginRight="10dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="书名："
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/book_name_item"
+                android:text="Javasript"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layout_marginRight="10dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="作者名："
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/book_author_item"
+                android:text="Mr.Jim"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textDirection="rtl"
+                android:layout_marginRight="10dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="出版社："
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/book_press_item"
+                android:text="beijing"
+                android:textSize="16dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layout_marginRight="10dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="总页数："
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/book_pages_item"
+                android:text="1278"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:lines="1"
+                android:textDirection="rtl"
+                android:textSize="16dp"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="价格："
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/book_price_item"
+                android:text="68.5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textDirection="rtl"
+                android:layout_marginRight="10dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
